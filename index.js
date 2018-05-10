@@ -10,7 +10,7 @@
 var net = require('net');
 var path = require('path');
 var fs = require('fs');
-var pty = require('pty.js');
+var pty = require('node-pty');
 var ProtoBuf = require('protobufjs');
 var _ = require('lodash');
 

@@ -8,10 +8,10 @@
 'use strict';
 
 module.exports = {
-    monitorHost: '0.0.0.0',
+    monitorHost: process.env.MONITOR_HOST,
     monitorPort: 3977,
     conf: {
-        group: 'foo'
+        group: process.env.APP_NAME
     },
     term: {
         cols: 135,
